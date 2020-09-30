@@ -1,0 +1,13 @@
+include 'header_file'
+BEGIN
+switch(9) {
+case 5 : 2+5 ~
+break~
+case 9 : 2+1 ~
+break~
+case 8 : 6+2~ 
+break~
+default : 4+5 ~
+break~
+}
+END

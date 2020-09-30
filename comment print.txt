@@ -1,0 +1,37 @@
+
+{Comment}	{fprintf(yyout,"Multiple line comment\n");}
+{Single_comment}	{fprintf(yyout,"Single line comment\n");}
+"write"	{return PRINT;}
+
+
+%union{
+	float FLT;
+	int INTG;
+}
+
+%token	<FLT>	NUMBER
+%token	<INTG>	VARIABLE
+%type	<INTG>	expression
+%type	<FLT>	statement
+%type	<INTG>	var
+%type	<FLT>	cstatement
+%type	<FLT>	switch
+
+
+start:/*empty*/
+	|function MAIN cstatement RETURN function	{fprintf(yyout,"\nSuccessfully compiled");}
+	;
+funcall:	FUNCTION LEFT_BRAC fparameter RIGHT_BRAC END_LINE	{fprintf(yyout,"Function is called\n");}
+function:
+		|function funcs
+		;
+funcs:	type FUNCTION LEFT_BRAC fparameter RIGHT_BRAC LEFT_PAREN cstatement RIGHT_PAREN	{fprintf(yyout,"\nfunction declared\n");}
+	;
+fparameter:	/* empty */
+	| type VARIABLE fsparameter
+	;
+fsparameter : /* empty */
+	| fsparameter COMMA type VARIABLE 
+	;
+
+"func "[A-Z0-9]+	{return FUNCTION;}

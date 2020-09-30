@@ -1,0 +1,7 @@
+integer func(){
+2+1~
+} 
+BEGIN
+2+1~
+func()~
+END

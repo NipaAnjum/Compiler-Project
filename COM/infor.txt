@@ -1,0 +1,5 @@
+BEGIN
+for i in range 2 to 5:
+2+1~
+for_end
+END

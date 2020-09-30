@@ -1,0 +1,8 @@
+include 'header_file'
+BEGIN
+integer a,b~
+integer c~
+b=3~
+if(2>1) 2+1~
+else 2-1~
+END

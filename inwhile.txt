@@ -1,0 +1,10 @@
+BEGIN
+integer a~
+while 3<5
+a=1~
+while_end
+while 5>3
+integer c~
+c=a~
+while_end
+END

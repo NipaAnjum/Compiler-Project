@@ -1,0 +1,7 @@
+value of exp:3
+
+function declared
+value of exp:3
+Returned value from function
+
+Main function

@@ -1,0 +1,66 @@
+include 'header_file'
+integer func FUN(){
+2+1~
+}
+BEGIN
+integer a,b~
+integer c~
+a=45~
+double l=5~
+tan(a)~
+b=3~
+sqr(b)~
+cube(b)~
+sqrt(b)~
+3!~
+integer s,t~
+s=90~
+t=60~
+if(2==1)
+write[5+9]~
+if_end
+elif(2>1)
+	if(b==3)
+		write[sin(s)]~
+	if_end
+elif_end
+else
+6+1~
+else_end
+
+switch(5) {
+case 2: 2+3~
+break~
+case 7:	2+4~
+break~
+case 5: 9+9~
+break~
+default: 4+5~
+break~
+}
+
+integer x~
+
+while 1<5
+	if(2>1)
+		x=10~
+		c=b+x~
+	if_end
+while_end
+
+while 7>=2
+	2+1~
+while_end
+
+integer x,y,z~
+x=6~
+y=9~
+minimum(x,y)~
+maximum(x,y)~
+swap(5,6)~
+
+for i in range 2 to 5:
+2+1~
+for_end
+func FUN()~
+END

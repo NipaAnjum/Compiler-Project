@@ -1,0 +1,14 @@
+WHILE LOOP IS EXECUTED
+3 4 
+value of exp:1
+
+While execution is true
+value of the expression: 1
+WHILE LOOP IS EXECUTED
+3 4 
+value of exp:3
+
+While execution is true
+value of the expression: 3
+
+Main function

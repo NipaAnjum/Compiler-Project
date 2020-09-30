@@ -1,0 +1,7 @@
+This is a Header file 
+b is already declared
+Value of the variable: 3	
+If statement executed
+Else-if statement is true
+
+Main function

@@ -1,0 +1,6 @@
+value of exp:3
+expression in for loop : 3
+expression in for loop : 3
+expression in for loop : 3
+
+Main function

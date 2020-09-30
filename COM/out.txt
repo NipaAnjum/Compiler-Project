@@ -1,0 +1,10 @@
+This is a Header file 
+case no 1 expression 3 cs 0
+case no 2 expression 4 cs 0
+expression 1
+value of default: 1
+default case
+switch case
+ cs value 2
+
+Main function
